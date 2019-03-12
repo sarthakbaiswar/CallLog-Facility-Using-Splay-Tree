@@ -1,0 +1,128 @@
+
+@OUTPUT:
+@trial run:
+CALL LOG data loaded and tree is formed
+Preorder after insert :99 -> 84 -> 70 -> 64 -> 42 -> 39 -> 22 -> 17 -> 
+
+Count: 99 Contact No.7122260603(B)
+
+     Count: 84 Contact No.7122231110(B)
+
+          Count: 70 Contact No.9096387292(B)
+
+               Count: 64 Contact No.7122277110(B)
+
+                    Count: 42 Contact No.8149077639(R)
+
+                         Count: 39 Contact No.8600297789(R)
+
+                              Count: 22 Contact No.9096384797(R)
+
+                                   Count: 17 Contact No.9850302107(R)
+
+***New Root node Count: 99 Contact no. 7122260603***
+----------------------------------------------------------------------
+Enter contact no. to be found: 
+8600297789
+----------------------------------------------------------------------
+Count:39
+***Node found or not:true***
+Preorder after search:39 -> 22 -> 17 -> 99 -> 70 -> 42 -> 64 -> 84 -> 
+
+     Count: 99 Contact No.7122260603(B)
+
+               Count: 84 Contact No.7122231110(B)
+
+          Count: 70 Contact No.9096387292(B)
+
+                    Count: 64 Contact No.7122277110(B)
+
+               Count: 42 Contact No.8149077639(R)
+
+Count: 39 Contact No.8600297789(R)
+
+     Count: 22 Contact No.9096384797(R)
+
+          Count: 17 Contact No.9850302107(R)
+
+***New Root node Count: 39 Contact no. 8600297789***
+----------------------------------------------------------------------
+Enter contact no. to be found: 
+9096384797
+----------------------------------------------------------------------
+Count:22
+***Node found or not:true***
+Preorder after search:22 -> 17 -> 39 -> 99 -> 70 -> 42 -> 64 -> 84 -> 
+
+          Count: 99 Contact No.7122260603(B)
+
+                    Count: 84 Contact No.7122231110(B)
+
+               Count: 70 Contact No.9096387292(B)
+
+                         Count: 64 Contact No.7122277110(B)
+
+                    Count: 42 Contact No.8149077639(R)
+
+     Count: 39 Contact No.8600297789(R)
+
+Count: 22 Contact No.9096384797(R)
+
+     Count: 17 Contact No.9850302107(R)
+
+***New Root node Count: 22 Contact no. 9096384797***
+----------------------------------------------------------------------
+Enter contact no. to be found: 
+7122260603
+----------------------------------------------------------------------
+Count:99
+***Node found or not:true***
+Preorder after search:99 -> 39 -> 22 -> 17 -> 70 -> 42 -> 64 -> 84 -> 
+
+Count: 99 Contact No.7122260603(B)
+
+               Count: 84 Contact No.7122231110(B)
+
+          Count: 70 Contact No.9096387292(B)
+
+                    Count: 64 Contact No.7122277110(B)
+
+               Count: 42 Contact No.8149077639(R)
+
+     Count: 39 Contact No.8600297789(R)
+
+          Count: 22 Contact No.9096384797(R)
+
+               Count: 17 Contact No.9850302107(R)
+
+***New Root node Count: 99 Contact no. 7122260603***
+----------------------------------------------------------------------
+Enter contact no. to be found: 
+7896131
+----------------------------------------------------------------------
+Count:0
+***Node found or not:false***
+Preorder after search:17 -> 99 -> 22 -> 39 -> 70 -> 42 -> 64 -> 84 -> 
+
+     Count: 99 Contact No.7122260603(B)
+
+                         Count: 84 Contact No.7122231110(B)
+
+                    Count: 70 Contact No.9096387292(B)
+
+                              Count: 64 Contact No.7122277110(B)
+
+                         Count: 42 Contact No.8149077639(R)
+
+               Count: 39 Contact No.8600297789(R)
+
+          Count: 22 Contact No.9096384797(R)
+
+Count: 17 Contact No.9850302107(R)
+
+Check if you have entered the contact no. correctly and it is in the dataset
+Data not found so, last traversed node brought to root
+***New Root node Count: 17 Contact no. 9850302107***
+----------------------------------------------------------------------
+Enter contact no. to be found: 
+0
