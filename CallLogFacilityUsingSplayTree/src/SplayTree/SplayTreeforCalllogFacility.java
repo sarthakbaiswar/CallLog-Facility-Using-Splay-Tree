@@ -205,7 +205,7 @@ public class SplayTreeforCalllogFacility {
     }
     
     /**
-     * @utilityfunction: getRootValue
+     * @function: getRootValue
      * @purpose: returns root data
      * @arguments: void
      * @return: Integer data
@@ -218,7 +218,7 @@ public class SplayTreeforCalllogFacility {
     }
     
     /**
-     * @utilityfunction: getRoot
+     * @function: getRoot
      * @purpose: returns root
      * @arguments: void
      * @return: node(root)
@@ -271,7 +271,7 @@ public class SplayTreeforCalllogFacility {
     }
     
     /**
-     * @utilityfunction: preOrder
+     * @function: preOrder
      * @purpose: preorder traversal of splay tree 
      * @arguments: node
      * @return: void
