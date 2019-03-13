@@ -9,6 +9,21 @@ available in mobile phones. The tree will also demonstrate the total number of c
 +outgoing] made from the phone at the node. If the value of calls is greater than "x", the node
 is colored "Black", otherwise, it is coloured "Red".*
 
+*****************************************
+### *Files*:
+```
+   * CallLog-Facility-Using-Splay-Tree
+   
+	|->src/Splaytree
+	
+		|->SplayTreeforCalllogFacility.java (splay tree as data structure and required functionalities)
+		
+		|->Utils.java (utilites file)
+		
+		|->demo.java (run file) 
+   * trial_run_output.txt (sample output)
+   * details.txt  
+```
 *******************************************
 ### *Technology stack*:
 
@@ -87,11 +102,11 @@ Java, Netbeans
 ### *Key functionality*: 
 ```
 1. The demonstration here shows the use of Splay tree in CALL LOG facility of mobile phones. 
-2. The contact number which is most recently searched after accessing gets placed at the root and the tree splays accordingly. 
-3. For accessing we store the data in the form of a key-value pair of count(total calls) and contact number.
+2. The contact number which is most recently searched after accessing gets placed at the ROOT and the tree splays accordingly. 
+3. For accessing we store the data in the form of a KEY_VALUE PAIR of COUNT(total calls) and CONTACT NUMBER.
 4. The tree is formed using the count(total calls) as data upon which comparison takes place.
-5. This helps in accessing the number if needed again more quickly and efficiently based on count(max is at root) or recent searched node. 
-6. Here, we have also used the incoming+outgoing calls count for node storing in the Splay Tree. Also, for count greater than 50, the nodes show Black(B) color, else Red color(R).
+5. This helps in ACCESSING the NUMBER if needed again MORE QUICKLY and EFFICIENTLY based on COUNT(MAX is at root) or MOST RECENT SEARCHED node. 
+6. Here, we have also used the incoming+outgoing calls count for node storing in the Splay Tree; in that for count greater than 50, the nodes show Black(B) color, else Red color(R).
 ```
 **************************************
 
@@ -104,8 +119,7 @@ Java, Netbeans
 4. Select the folder and let it load.
 5. Open the demo.java file and run the file using "Shift+F6".
 ```
-
-
+***************************************
 ### *Author*:
 
 - **Sarthak Baiswar** *Initial Work* [sarthakbaiswar](https://github.com/sarthakbaiswar)
